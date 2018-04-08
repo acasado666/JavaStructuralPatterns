@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.acasado.adapter</OriginalElement>
+  <nodes>
+    <node x="257.5206944444444" y="0.0">org.acasado.adapter.Student</node>
+    <node x="241.14347222222216" y="179.5">org.acasado.adapter.StudentDB</node>
+    <node x="0.0" y="0.0">org.acasado.adapter.StudentCSV</node>
+    <node x="49.14347222222216" y="179.5">org.acasado.adapter.StudentAdapterCSV</node>
+    <node x="412.73722222222216" y="168.0">org.acasado.adapter.StudentAdapterLDAP</node>
+    <node x="236.24777777777774" y="504.0">org.acasado.adapter.AdapterDemo</node>
+    <node x="498.61222222222216" y="0.0">org.acasado.adapter.StudentLDAP</node>
+    <node x="180.49777777777774" y="402.0">org.acasado.adapter.StudentClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.acasado.adapter.StudentClient" target="org.acasado.adapter.Student">
+      <point x="-11.3125" y="-26.0" />
+      <point x="259.68527777777774" y="352.0" />
+      <point x="230.64347222222216" y="352.0" />
+      <point x="230.64347222222216" y="148.0" />
+      <point x="297.12069444444444" y="148.0" />
+      <point x="-26.399999999999977" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentAdapterLDAP" target="org.acasado.adapter.Student">
+      <point x="-59.0" y="-82.0" />
+      <point x="442.23722222222216" y="138.0" />
+      <point x="376.3206944444444" y="138.0" />
+      <point x="52.80000000000001" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentClient" target="org.acasado.adapter.StudentCSV">
+      <point x="-56.5625" y="-26.0" />
+      <point x="214.43527777777774" y="372.0" />
+      <point x="38.643472222222215" y="372.0" />
+      <point x="38.643472222222215" y="148.0" />
+      <point x="55.875" y="148.0" />
+      <point x="-18.625" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentAdapterCSV" target="org.acasado.adapter.Student">
+      <point x="57.0" y="-70.5" />
+      <point x="191.64347222222216" y="138.0" />
+      <point x="270.7206944444444" y="138.0" />
+      <point x="-52.80000000000001" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentClient" target="org.acasado.adapter.StudentAdapterCSV">
+      <point x="-33.9375" y="-26.0" />
+      <point x="237.06027777777774" y="362.0" />
+      <point x="134.64347222222216" y="362.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentDB" target="org.acasado.adapter.Student">
+      <point x="0.0" y="-70.5" />
+      <point x="315.14347222222216" y="148.0" />
+      <point x="323.5206944444444" y="148.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentClient" target="org.acasado.adapter.StudentLDAP">
+      <point x="79.1875" y="-26.0" />
+      <point x="350.18527777777774" y="382.0" />
+      <point x="611.2372222222223" y="382.0" />
+      <point x="611.2372222222223" y="148.0" />
+      <point x="620.2372222222222" y="148.0" />
+      <point x="52.125" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentAdapterLDAP" target="org.acasado.adapter.StudentLDAP">
+      <point x="0.0" y="-82.0" />
+      <point x="501.23722222222216" y="148.0" />
+      <point x="515.9872222222222" y="148.0" />
+      <point x="-52.125" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentAdapterCSV" target="org.acasado.adapter.StudentCSV">
+      <point x="0.0" y="-70.5" />
+      <point x="134.64347222222216" y="148.0" />
+      <point x="130.375" y="148.0" />
+      <point x="55.875" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.AdapterDemo" target="org.acasado.adapter.Student">
+      <point x="53.333333333333314" y="-26.0" />
+      <point x="369.58111111111106" y="479.0" />
+      <point x="402.23722222222216" y="479.0" />
+      <point x="402.23722222222216" y="148.0" />
+      <point x="349.9206944444444" y="148.0" />
+      <point x="26.399999999999977" y="59.0" />
+    </edge>
+    <edge source="org.acasado.adapter.AdapterDemo" target="org.acasado.adapter.StudentClient">
+      <point x="-53.33333333333337" y="-26.0" />
+      <point x="262.91444444444437" y="479.0" />
+      <point x="225.74777777777774" y="479.0" />
+      <point x="-45.25" y="26.0" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentClient" target="org.acasado.adapter.StudentDB">
+      <point x="11.3125" y="-26.0" />
+      <point x="282.31027777777774" y="352.0" />
+      <point x="315.14347222222216" y="352.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="org.acasado.adapter.StudentClient" target="org.acasado.adapter.StudentAdapterLDAP">
+      <point x="33.9375" y="-26.0" />
+      <point x="304.93527777777774" y="362.0" />
+      <point x="501.23722222222216" y="362.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="476.0" y="301.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
