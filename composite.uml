@@ -3,40 +3,28 @@
   <ID>JAVA</ID>
   <OriginalElement>org.acasado.composite</OriginalElement>
   <nodes>
-    <node x="240.0" y="236.0">org.acasado.composite.Automobile</node>
-    <node x="154.25" y="405.0">org.acasado.composite.CompositeAutomobileDemo</node>
-    <node x="0.0" y="258.0">org.acasado.composite.AutomobileItem</node>
-    <node x="77.25" y="0.0">org.acasado.composite.AutomobileComponent</node>
-    <node x="0.0" y="502.0">org.acasado.composite.CompositeEverydayDemo</node>
+    <node x="0.0" y="233.0">org.acasado.composite.Automobile</node>
+    <node x="0.0" y="394.0">org.acasado.composite.CompositeAutomobileDemo</node>
+    <node x="368.0" y="255.0">org.acasado.composite.AutomobileItem</node>
+    <node x="149.25" y="0.0">org.acasado.composite.AutomobileComponent</node>
+    <node x="273.0" y="394.0">org.acasado.composite.CompositeEverydayDemo</node>
   </nodes>
   <notes />
   <edges>
     <edge source="org.acasado.composite.AutomobileItem" target="org.acasado.composite.AutomobileComponent">
-      <point x="55.0" y="-37.5" />
-      <point x="165.0" y="211.0" />
-      <point x="202.5" y="211.0" />
-      <point x="-41.75" y="93.0" />
-    </edge>
-    <edge source="org.acasado.composite.CompositeAutomobileDemo" target="org.acasado.composite.Automobile">
-      <point x="67.5" y="-26.0" />
-      <point x="311.75" y="385.0" />
-      <point x="490.5" y="385.0" />
-      <point x="83.5" y="59.5" />
-    </edge>
-    <edge source="org.acasado.composite.CompositeAutomobileDemo" target="org.acasado.composite.AutomobileItem">
-      <point x="-67.5" y="-26.0" />
-      <point x="176.75" y="385.0" />
-      <point x="55.0" y="385.0" />
-      <point x="-55.0" y="37.5" />
+      <point x="0.0" y="-36.0" />
+      <point x="472.5" y="208.0" />
+      <point x="410.25" y="208.0" />
+      <point x="87.0" y="91.5" />
     </edge>
     <edge source="org.acasado.composite.Automobile" target="org.acasado.composite.AutomobileComponent">
-      <point x="-83.5" y="-59.5" />
-      <point x="323.5" y="211.0" />
-      <point x="286.0" y="211.0" />
-      <point x="41.75" y="93.0" />
+      <point x="0.0" y="-58.0" />
+      <point x="174.0" y="208.0" />
+      <point x="236.25" y="208.0" />
+      <point x="-87.0" y="91.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="287.0" y="277.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="703.5" y="423.0" />
   <SelectedNodes>
     <node>org.acasado.composite.AutomobileComponent</node>
   </SelectedNodes>
